@@ -1,28 +1,24 @@
 {
   "expo": {
-    "name": "ReactFirebase",
-    "slug": "ReactFirebase",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "ReactFirebaseTodo",
+    "slug": "ReactFirebaseTodo",
+    "platforms": ["ios", "android", "web"],
+    "sdkVersion": "37.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/todo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/todo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.abc.reactfirebasetodo",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.abc.reactfirebasetodo",
+      "versionCode": 1
     }
   }
 }
